@@ -5,9 +5,9 @@
 
 (library
  (name lib1)
- (modules lib)
+ (modules ReferenceImplementation)
  (flags (-rectypes))
- (libraries OCanren OCanren.tester)
+ (libraries benchmark)
  (inline_tests)
  (wrapped false)
  (preprocess
